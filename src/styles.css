@@ -1,0 +1,98 @@
+body {
+  padding-top: 60px;
+  background-color: #023e8a;
+}
+
+.header {
+  text-align: center;
+  font-size: 25px;
+  color: #caf0f8;
+  padding-bottom: 50px;
+}
+
+.description {
+  color: #caf0f8;
+}
+
+.board {
+  margin-top: 30px;
+  display: grid;
+  grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px;
+  grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px;
+  justify-content: center;
+}
+
+.black {
+  background-color: #0077b6;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.white {
+  background-color: #caf0f8;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttonStartingPos {
+  margin-top: 5px;
+  margin-left: 450px;
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.button {
+  margin-top: 5px;
+  margin-left: 450px;
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.inputBox {
+  font-family: monospace;
+  font-size: 20px;
+  margin-left: 450px;
+  margin-top: 5px;
+  height: 200x;
+  width: 200px;
+}
+
+.kingChecks {
+  color: #caf0f8;
+  text-align: center;
+}
+
+.counter {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.piece {
+  text-align: center;
+}
+
+.footer {
+  color: #d8f3dc;
+  position: relative;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.buttonsAndInput {
+  margin-top: 5rem;
+  display: flexbox;
+}
+
+.kingChecksAndBoard {
+  margin-left: 4rem;
+  display: flexbox;
+}
+
+.buttonsAndBoard {
+  display: flex;
+}
